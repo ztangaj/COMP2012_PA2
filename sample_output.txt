@@ -1,0 +1,703 @@
+Buddy:
+	name:Tom
+	energy:100
+	fat:1000
+	money:1000
+	muscle:100
+<-Workout Schedule->:Empty!
+<-Dining Schedule->:Empty!
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+Tom is capable for the following activity? Yes
+duration: [7, 8]
+Workout:
+	name:jogging
+	fat_change:-10
+	muscle_change:-10
+	energy_change:-10
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+Tom is capable for the following activity? Yes
+duration: [9, 12]
+Workout:
+	name:jogging
+	fat_change:-10
+	muscle_change:-10
+	energy_change:-10
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert jogging [14,16] to Tom
+Buddy:
+	name:Tom
+	energy:90
+	fat:990
+	money:1000
+	muscle:90
+<-Workout Schedule->:
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+<-Dining Schedule->:Empty!
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+Tom is capable for the following activity? Yes
+duration: [7, 8]
+Workout:
+	name:jogging
+	fat_change:-10
+	muscle_change:-10
+	energy_change:-10
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+Tom is capable for the following activity? Yes
+duration: [9, 12]
+Workout:
+	name:jogging
+	fat_change:-10
+	muscle_change:-10
+	energy_change:-10
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+Tom is capable for the following activity? No
+duration: [14, 16]
+Workout:
+	name:jogging
+	fat_change:-10
+	muscle_change:-10
+	energy_change:-10
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+Tom is capable for the following activity? Yes
+duration: [6, 8]
+Workout:
+	name:lifting
+	fat_change:-500
+	muscle_change:-30
+	energy_change:-50
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+Tom is capable for the following activity? Yes
+duration: [18, 22]
+Workout:
+	name:lifting
+	fat_change:-500
+	muscle_change:-30
+	energy_change:-50
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+Tom is capable for the following activity? Yes
+duration: [16, 18]
+Workout:
+	name:lifting
+	fat_change:-500
+	muscle_change:-30
+	energy_change:-50
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert jogging [9,12] to Tom
+Buddy:
+	name:Tom
+	energy:80
+	fat:980
+	money:1000
+	muscle:80
+<-Workout Schedule->:
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+<-Dining Schedule->:Empty!
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert jogging [7,8] to Tom
+Buddy:
+	name:Tom
+	energy:70
+	fat:970
+	money:1000
+	muscle:70
+<-Workout Schedule->:
+	duration [7, 8]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+<-Dining Schedule->:Empty!
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert lifting [16,18] to Tom
+Buddy:
+	name:Tom
+	energy:20
+	fat:470
+	money:1000
+	muscle:40
+<-Workout Schedule->:
+	duration [7, 8]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 18]:
+		Workout:
+			name:lifting
+			fat_change:-500
+			muscle_change:-30
+			energy_change:-50
+<-Dining Schedule->:Empty!
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert lifting [18,22] to Tom
+Buddy:
+	name:Tom
+	energy:20
+	fat:470
+	money:1000
+	muscle:40
+<-Workout Schedule->:
+	duration [7, 8]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 18]:
+		Workout:
+			name:lifting
+			fat_change:-500
+			muscle_change:-30
+			energy_change:-50
+<-Dining Schedule->:Empty!
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+list workout activities of Tom from 10 to 18
+Workout:
+	name:jogging
+	fat_change:-10
+	muscle_change:-10
+	energy_change:-10
+Workout:
+	name:lifting
+	fat_change:-500
+	muscle_change:-30
+	energy_change:-50
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+workout activities of Tom with name: jogging
+Workout:
+	name:jogging
+	fat_change:-30
+	muscle_change:-30
+	energy_change:-30
+total time: 6
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+workout activities of Tom with name: lifting
+Workout:
+	name:lifting
+	fat_change:-500
+	muscle_change:-30
+	energy_change:-50
+total time: 2
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert dish [7,10] to Tom
+Buddy:
+	name:Tom
+	energy:320
+	fat:570
+	money:700
+	muscle:40
+<-Workout Schedule->:
+	duration [7, 8]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 18]:
+		Workout:
+			name:lifting
+			fat_change:-500
+			muscle_change:-30
+			energy_change:-50
+<-Dining Schedule->:
+	duration [7, 10]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert dish [9,12] to Tom
+Buddy:
+	name:Tom
+	energy:320
+	fat:570
+	money:700
+	muscle:40
+<-Workout Schedule->:
+	duration [7, 8]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 18]:
+		Workout:
+			name:lifting
+			fat_change:-500
+			muscle_change:-30
+			energy_change:-50
+<-Dining Schedule->:
+	duration [7, 10]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert dish [13,15] to Tom
+Buddy:
+	name:Tom
+	energy:620
+	fat:670
+	money:400
+	muscle:40
+<-Workout Schedule->:
+	duration [7, 8]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 18]:
+		Workout:
+			name:lifting
+			fat_change:-500
+			muscle_change:-30
+			energy_change:-50
+<-Dining Schedule->:
+	duration [7, 10]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+	duration [13, 15]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert lifting [18,22] to Tom
+Buddy:
+	name:Tom
+	energy:570
+	fat:170
+	money:400
+	muscle:10
+<-Workout Schedule->:
+	duration [7, 8]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 22]:
+		Workout:
+			name:lifting
+			fat_change:-1000
+			muscle_change:-60
+			energy_change:-100
+<-Dining Schedule->:
+	duration [7, 10]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+	duration [13, 15]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+result of removing workout activities from 11 to 6 of Tom: Failed
+Buddy:
+	name:Tom
+	energy:570
+	fat:170
+	money:400
+	muscle:10
+<-Workout Schedule->:
+	duration [7, 8]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [9, 12]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 22]:
+		Workout:
+			name:lifting
+			fat_change:-1000
+			muscle_change:-60
+			energy_change:-100
+<-Dining Schedule->:
+	duration [7, 10]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+	duration [13, 15]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+result of removing workout activities from 7 to 14 of Tom: Successful
+Buddy:
+	name:Tom
+	energy:590
+	fat:190
+	money:400
+	muscle:30
+<-Workout Schedule->:
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 22]:
+		Workout:
+			name:lifting
+			fat_change:-1000
+			muscle_change:-60
+			energy_change:-100
+<-Dining Schedule->:
+	duration [7, 10]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+	duration [13, 15]:
+		Dining:
+			name:dish
+			fat:100
+			energy:300
+			price:300
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+list dining activities of Tom from 10 to 15
+Dining:
+	name:dish
+	fat:100
+	energy:300
+	price:300
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+after trying to insert dish [10,13] to Tom
+Buddy:
+	name:Tom
+	energy:890
+	fat:290
+	money:100
+	muscle:30
+<-Workout Schedule->:
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 22]:
+		Workout:
+			name:lifting
+			fat_change:-1000
+			muscle_change:-60
+			energy_change:-100
+<-Dining Schedule->:
+	duration [7, 15]:
+		Dining:
+			name:dish
+			fat:300
+			energy:900
+			price:900
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+dining activities of Tom with name: dish
+Dining:
+	name:dish
+	fat:300
+	energy:900
+	price:900
+total time: 8
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+workout activities of Tom with name: jogging
+Workout:
+	name:jogging
+	fat_change:-10
+	muscle_change:-10
+	energy_change:-10
+total time: 2
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+result of removing dining activities from 7 to 14 of Tom: Successful
+Buddy:
+	name:Tom
+	energy:890
+	fat:290
+	money:100
+	muscle:30
+<-Workout Schedule->:
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 22]:
+		Workout:
+			name:lifting
+			fat_change:-1000
+			muscle_change:-60
+			energy_change:-100
+<-Dining Schedule->:
+	duration [7, 15]:
+		Dining:
+			name:dish
+			fat:300
+			energy:900
+			price:900
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+After trying to remove dining activities with name: dish of Tom
+Buddy:
+	name:Tom
+	energy:890
+	fat:290
+	money:100
+	muscle:30
+<-Workout Schedule->:
+	duration [14, 16]:
+		Workout:
+			name:jogging
+			fat_change:-10
+			muscle_change:-10
+			energy_change:-10
+	duration [16, 22]:
+		Workout:
+			name:lifting
+			fat_change:-1000
+			muscle_change:-60
+			energy_change:-100
+<-Dining Schedule->:
+	duration [7, 15]:
+		Dining:
+			name:dish
+			fat:300
+			energy:900
+			price:900
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>> start of test >>>>>>>>>>>>>>>
+After trying to remove workout activities with name: jogging of Tom
+Buddy:
+	name:Tom
+	energy:900
+	fat:300
+	money:100
+	muscle:40
+<-Workout Schedule->:
+	duration [16, 22]:
+		Workout:
+			name:lifting
+			fat_change:-1000
+			muscle_change:-60
+			energy_change:-100
+<-Dining Schedule->:
+	duration [7, 15]:
+		Dining:
+			name:dish
+			fat:300
+			energy:900
+			price:900
+
+<<<<<<<<<<<<<<< end of test <<<<<<<<<<<<<<<
+[The end of program]
